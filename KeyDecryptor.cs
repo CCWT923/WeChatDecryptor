@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace WeChatDecryptor
 {
+    /// <summary>
+    /// 获取微信的加密Key，仅用于3.x版本
+    /// </summary>
     internal class KeyDecryptor
     {
         static byte?[] signature = new byte?[]
